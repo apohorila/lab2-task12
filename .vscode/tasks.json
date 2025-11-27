@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: G++ Build Lab 2 (Task 12)",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++20",
+                "-mconsole",
+                "${fileDirname}\\main.cpp",
+                "${fileDirname}\\part1.cpp",
+                "${fileDirname}\\part2.cpp",
+                "${fileDirname}\\part3.cpp",
+                "-o",
+                "${fileDirname}\\lab2_main.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task to build Lab 2, Task 12 project."
+        }
+    ],
+    "version": "2.0.0"
+}
